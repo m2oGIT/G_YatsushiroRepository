@@ -1,11 +1,16 @@
 package Java01;
 
-public class Test02 {
+import static java.lang.System.*;
+
+public class Test04 {
 	public static void main(String[] args){
 		try{
-			//テスト2
+			out.println(args[0]);
+
 		}catch(Exception e){
 			e.printStackTrace();
+			out.println("引数ないけど");
 		}
 	}
 }
+
